@@ -31,6 +31,9 @@ async function catalogue(db) { return await db.prepare('SELECT body, revision FR
 function sameOrigin(request){return request.headers.get('Origin')===new URL(request.url).origin;}
 export async function handle(request,env) {
   const url=new URL(request.url), path=url.pathname, method=request.method;
+  if(url.protocol==='http:'&&!['localhost','127.0.0.1','[::1]'].includes(url.hostname)){
+    url.protocol='https:';return Response.redirect(url,308);
+  }
   if(path==='/admin'||path==='/admin/')return env.ASSETS.fetch(new Request(new URL('/studio.html',url),request));
   if(path==='/catalogue.json'){
     if(!['GET','HEAD'].includes(method))return json({error:'Method not allowed.'},405);
