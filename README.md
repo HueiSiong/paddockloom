@@ -2,6 +2,10 @@
 
 Singapore motorsport catalogue: cinematic imagery, SGD prices, filters, favourites and a private online inventory studio. No checkout or payment processor.
 
+- Website: https://paddockloom.paddockloom.workers.dev
+- Admin: https://paddockloom.paddockloom.workers.dev/admin
+- Source: https://github.com/HueiSiong/paddockloom
+
 ## Manage products online
 
 1. Open `/admin` on the published website.
