@@ -1,0 +1,22 @@
+[
+  {
+    "name": "hero",
+    "prompt": "Use case: ads-marketing. Create an ultra premium cinematic automotive campaign photograph for PADDOCKLOOM motorsport fashion website, widescreen landscape 16:9. A matte black modern open-wheel Formula racing car in a dark pit garage at night, seen low from rear three-quarter, car concentrated on RIGHT HALF of frame, large rear slick tire, intricate rear wing, carbon weave details. Thin electric orange LED light strip on garage wall, wet asphalt reflecting warm orange, slight realistic smoke. Left half dark almost black negative space for website headline to be added separately. Rich analog cinematic photography, elegant brutalist architecture, high contrast soft silver edge lights, fine film grain. No text, no logos, no watermark. Entire car believable and photorealistic. Not illustration."
+  },
+  {
+    "name": "cap-black",
+    "prompt": "Use case: product-mockup. Square luxury ecommerce studio photograph, single matte black structured six-panel racing baseball cap, front three-quarter view, brim toward lower left. Premium finely woven cotton, understated small embroidered ivory abstract double slanted bar emblem on front, no words, small burnt orange tab on side. Floating just above seamless charcoal black studio background #171819 with soft ground shadow. Big product centered filling 70% image. Sculptural directional softbox with beautiful fabric texture, neutral colors. No text, no watermarks, no brands. Realistic premium concept merchandise."
+  },
+  {
+    "name": "cap-orange",
+    "prompt": "Use case: product-mockup. Square luxury ecommerce studio photograph, single papaya orange structured six-panel racing baseball cap, front three-quarter view, brim toward lower left. Finely woven cotton, black brim underside, small understated embroidered black abstract double slanted bar emblem on front, no words. Floating just above seamless charcoal black studio background #171819 with soft ground shadow. Big product centered filling 70% image. Sculptural directional softbox with beautiful fabric texture. No text, no watermarks, no brands. Realistic premium concept merchandise."
+  },
+  {
+    "name": "shirt",
+    "prompt": "Use case: product-mockup. Square luxury ecommerce studio photograph, single black heavyweight boxy short sleeve motorsport T-shirt presented floating in dimensional natural torso form without visible person or mannequin. Small ivory double slanted bar emblem at left chest, fine orange piping at shoulders. Front three-quarter angle. Seamless charcoal black studio background #171819, beautiful soft studio lighting with visible black cotton texture and realistic folds, entire garment visible with comfortable margins. No text, no watermarks, no brands. Realistic premium concept merchandise."
+  },
+  {
+    "name": "model",
+    "prompt": "Use case: product-mockup. Square luxury ecommerce studio photograph, collectible 1:43 scale miniature modern open wheel Formula racing car in black and metallic silver with small orange accents. Complete scale model seen from front three-quarter, nose toward lower left, four soft rubber slick tires, intricate detailed front and rear wings, standing on minimal black rectangular display plinth. Seamless charcoal black studio background #171819 with soft ground shadow. Product fills 75% frame, beautiful silver rim lighting, photorealistic. No text, no watermarks, no brand logos."
+  }
+]

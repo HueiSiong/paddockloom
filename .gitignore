@@ -1,0 +1,13 @@
+node_modules/
+dist/
+test-results/
+*.log
+.env*
+.DS_Store
+.npm-cache/
+.catalogue.backup.json
+.catalogue-*.tmp
+.wrangler/
+.dev.vars*
+.local/
+wrangler.local.json

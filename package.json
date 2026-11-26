@@ -1,0 +1,25 @@
+{
+  "name": "paddockloom",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173 --strictPort",
+    "build": "node scripts/validate.mjs && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173 --strictPort",
+    "test": "node --test tests/catalogue.test.mjs",
+    "test:browser": "node tests/browser.mjs",
+    "dev:cloud": "wrangler dev --local --port 8787",
+    "test:hosted": "node tests/hosted.mjs",
+    "deploy": "npm run build && wrangler deploy",
+    "db:local": "wrangler d1 migrations apply paddockloom-catalogue --local"
+  },
+  "devDependencies": {
+    "@fontsource/barlow-condensed": "^5.3.0",
+    "@fontsource/manrope": "^5.3.0",
+    "@playwright/test": "^1.56.1",
+    "sharp": "^0.35.5",
+    "vite": "^7.2.2",
+    "wrangler": "^4.168.0"
+  }
+}

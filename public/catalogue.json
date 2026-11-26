@@ -1,0 +1,126 @@
+{
+  "brand": "PADDOCKLOOM",
+  "previewMode": true,
+  "contact": {
+    "whatsapp": "",
+    "carousell": "",
+    "email": ""
+  },
+  "products": [
+    {
+      "id": "apex-cap-onyx",
+      "name": "The Apex Cap",
+      "subtitle": "Onyx / Signature series",
+      "category": "Caps",
+      "collection": "Signature",
+      "price": 48,
+      "status": "in-stock",
+      "badge": "THE SIGNATURE",
+      "color": "Onyx black",
+      "colorHex": "#282828",
+      "sizes": [
+        "Adjustable"
+      ],
+      "images": [
+        "/images/cap-black.webp"
+      ],
+      "featured": true,
+      "placeholder": true,
+      "description": "Quiet confidence. A sculpted six-panel silhouette with a curved peak and a subtle motorsport-inspired mark. The finishing touch for race weekends and everything in between.",
+      "details": [
+        "Concept: structured six-panel cotton cap",
+        "Adjustable rear strap",
+        "Embroidered signature mark",
+        "Illustrative design; final specifications to be confirmed"
+      ],
+      "carousellUrl": ""
+    },
+    {
+      "id": "apex-cap-papaya",
+      "name": "The Apex Cap",
+      "subtitle": "Papaya / Trackside series",
+      "category": "Caps",
+      "collection": "Trackside",
+      "price": 48,
+      "status": "in-stock",
+      "badge": "RACE WEEKEND READY",
+      "color": "Papaya orange",
+      "colorHex": "#ec7031",
+      "sizes": [
+        "Adjustable"
+      ],
+      "images": [
+        "/images/cap-orange.webp"
+      ],
+      "featured": true,
+      "placeholder": true,
+      "description": "Made to stand out in the grandstand. Our signature cap silhouette, imagined in an unmistakably energetic papaya orange. A little trackside attitude for your everyday rotation.",
+      "details": [
+        "Concept: structured six-panel cotton cap",
+        "Adjustable rear strap",
+        "Contrast embroidered signature mark",
+        "Illustrative design; final specifications to be confirmed"
+      ],
+      "carousellUrl": ""
+    },
+    {
+      "id": "pitlane-tee",
+      "name": "The Pitlane Tee",
+      "subtitle": "Carbon / Essentials series",
+      "category": "Apparel",
+      "collection": "Essentials",
+      "price": 65,
+      "status": "low-stock",
+      "badge": "THE EVERYDAY ESSENTIAL",
+      "color": "Carbon black",
+      "colorHex": "#1e1e20",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "images": [
+        "/images/shirt.webp"
+      ],
+      "featured": true,
+      "placeholder": true,
+      "description": "An effortless off-duty uniform. A relaxed, boxy silhouette meets restrained racing details, bringing the atmosphere of the paddock into the everyday.",
+      "details": [
+        "Concept: heavyweight cotton jersey",
+        "Relaxed, boxy fit",
+        "Contrast shoulder detailing",
+        "Illustrative design; measurements and composition to be confirmed"
+      ],
+      "carousellUrl": ""
+    },
+    {
+      "id": "open-wheel-143",
+      "name": "The Open-Wheel 1:43",
+      "subtitle": "Obsidian / Collectors series",
+      "category": "Scale models",
+      "collection": "Collectors",
+      "price": 89,
+      "status": "coming-soon",
+      "badge": "FOR THE COLLECTION",
+      "color": "Obsidian / silver",
+      "colorHex": "#8a8d8f",
+      "sizes": [
+        "1:43 scale"
+      ],
+      "images": [
+        "/images/model.webp"
+      ],
+      "featured": true,
+      "placeholder": true,
+      "description": "The obsession, in miniature. A considered open-wheel collectible concept with sculptural aerodynamics and a monochrome livery, imagined for the desk, shelf or display cabinet.",
+      "details": [
+        "Concept: 1:43 scale display model",
+        "Display plinth shown for illustration",
+        "Collector display concept; not a children's toy",
+        "Exploratory range; availability and final specifications to be confirmed"
+      ],
+      "carousellUrl": ""
+    }
+  ]
+}
