@@ -8,6 +8,14 @@ Singapore motorsport catalogue: cinematic imagery, SGD prices, filters, favourit
 
 ## Manage products online
 
+### Teams, product types and colour variants
+
+In the dashboard, scroll to **Teams & product types** to add or edit names (one per line), then assign a team/brand and category to each product. Reassign products before removing a name that is in use. Mercedes, McLaren, Red Bull and Independent are initial choices; these labels do not imply that existing concept products are official team merchandise.
+
+Use **Add colour** on a product to create a variant. Select a colour under **Editing colour**, then edit its photos, price, stock, sizes and optional Carousell listing. A new colour initially copies the selected colour's details and photos as a starting point; replace them before saving. At least one colour must remain. Each colour needs a photo. Prices and stock are per colour, while title, description, team and category apply to the product as a whole.
+
+Customers can choose a team, then a product type. Product pages have colour buttons that update photos, price, stock and sizes together; enquiries include the selected colour and price. Existing listings are preserved and become single-colour products when opened in the new editor. Separate existing listings are not merged automatically.
+
 1. Open `/admin` on the published website.
 2. Sign in with your private admin access key. On the owner's original computer it is in `.local/admin-access.txt`, which is excluded from GitHub. Save the key in your password manager.
 3. Add/edit/remove products; change prices, sizes, categories, stock and photos.
