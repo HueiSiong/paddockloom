@@ -1,5 +1,21 @@
 # PADDOCKLOOM
 
+## November 2026 inventory import
+
+The catalogue now contains 83 product listings and 253 colour/design options across 10 teams. Buyers filter by team, Caps/Shirts and Standard collection/Special livery. A driver number is part of the selectable option name and WhatsApp enquiry. Multiple views of one item are grouped in its gallery; a composite front/back photo represents one item, not a bundle. Supplied screenshot interfaces and prices have been permanently cropped away with the owner's approval; product photography is compressed to WebP without redrawing logos or details.
+
+Pricing: standard caps SGD 24.90, special-livery caps SGD 35.90, standard shirts SGD 39.90, special-livery shirts SGD 59.90. Special-livery classifications use the pictured graphic/alternate designs, without claiming unverified race editions. The owner can refine these classifications and prices in Inventory Studio.
+
+Shirts use S–4XL and the readable Mercedes reference chart. The customer size guide explicitly says it is a shared reference and asks buyers to confirm the selected style's measurements. The second supplied chart has cropped size labels, so it was not used to infer size names. No material, licensing or exact stock quantity claims have been added.
+
+WhatsApp is connected. Carousell and email buttons appear only when a channel is configured. The original concept inventory is backed up locally and replaced by actual supplied inventory.
+
+Inventory Studio now includes listing search and a direct Teams & product types link. Online edits remain in D1 and survive code deployments. Imported photo assets are served statically, so they do not consume the 100 MB dashboard upload allowance. Future dashboard uploads still use that capped allowance; no paid storage has been enabled.
+
+Import source mapping: `scripts/inventory-manifest.mjs`. Private source screenshots, backups and the detailed review CSV remain in the ignored `Images/` and `.local/inventory-import/` folders. Do not rerun the preparation or publishing scripts against later owner edits without reconciling them first; the publisher refuses to overwrite a catalogue that changed after its backup.
+
+Validation: `npm test`, `npm run build`, and `node tests/inventory-browser.mjs`. Set `TEST_URL` to the published site to run the read-only browser checks there. The older destructive hosted/variant test scripts are development fixtures and should not be run against production inventory.
+
 Singapore motorsport catalogue: cinematic imagery, SGD prices, filters, favourites and a private online inventory studio. No checkout or payment processor.
 
 - Website: https://paddockloom.paddockloom.workers.dev
@@ -23,7 +39,7 @@ Customers can choose a team, then a product type. Product pages have colour butt
 
 Your computer can be off. Inventory edits do not need VS Code or deployment. Design/code changes still require deployment.
 
-The initial collection contains clearly labelled concept products. Add your real purchase channels in **Store & contact settings** and turn off **Preview mode** when ready. Clear each product's concept checkbox only after replacing illustrative information and photos with actual inventory. No enquiry is sent automatically.
+The live collection contains the imported product photos and agreed prices, with WhatsApp connected and preview mode off. New products start with a concept checkbox: clear it after entering actual information and photos. Purchase channels remain editable in **Store & contact settings**. No enquiry is sent automatically.
 
 ## Free trial architecture
 

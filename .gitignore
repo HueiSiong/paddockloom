@@ -11,3 +11,4 @@ test-results/
 .dev.vars*
 .local/
 wrangler.local.json
+/Images/

@@ -3,7 +3,7 @@ import { normalise, selectedVariant } from '../src/variants.js';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { filterProducts, validateCatalogue, purchaseUrl, enquiryMessage, validCarousell, validImage, escapeHtml, money } from '../src/catalogue.js';
-const catalogue=JSON.parse(await readFile(new URL('../public/catalogue.json',import.meta.url),'utf8'));
+const catalogue=JSON.parse(await readFile(new URL('./fixtures/demo-catalogue.json',import.meta.url),'utf8'));
 const filters={category:'All',collection:'',query:'',stock:false,savedOnly:false,saved:[],sort:'featured'};
 test('colour variants validate, filter by available colours, and preserve enquiry details',()=>{
  const data=normalise(structuredClone(catalogue));const p=data.products[0];p.brand='McLaren';p.variants[0].status='sold-out';

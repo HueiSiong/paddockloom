@@ -7,7 +7,7 @@
     "dev": "vite --host 127.0.0.1 --port 5173 --strictPort",
     "build": "node scripts/validate.mjs && vite build",
     "preview": "vite preview --host 127.0.0.1 --port 4173 --strictPort",
-    "test": "node --test tests/catalogue.test.mjs",
+    "test": "node --test tests/*.test.mjs",
     "test:browser": "node tests/browser.mjs",
     "dev:cloud": "wrangler dev --local --port 8787",
     "test:hosted": "node tests/hosted.mjs",
