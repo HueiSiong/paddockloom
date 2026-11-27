@@ -35,6 +35,7 @@ try{
  await page.screenshot({path:'test-results/inventory-catalogue-mobile.png'});
  const images=await page.locator('.product-card img').evaluateAll(imgs=>imgs.filter(i=>i.complete&&i.naturalWidth===0).map(i=>i.src));assert.deepEqual(images,[]);assert.deepEqual(errors,[]);
  await page.goto(base+'/studio');
+ await page.locator('#login-form, #studio-search').first().waitFor();
  if(await page.locator('#login-form').count()){
   const {key}=JSON.parse(await fs.readFile('.local/admin-secrets.json','utf8'));
   await page.locator('#admin-key').fill(key);await page.locator('#login-form button').click();
