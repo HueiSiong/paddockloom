@@ -1,12 +1,20 @@
 # PADDOCKLOOM
 
+## Shop refresh and order offers
+
+All 285 imported product photos have been reviewed and cleaned of supplier captions and stray labels around the products. Cleaned WebP assets are in `public/images/clean/`; their repeatable crop/margin instructions are in `scripts/photo-cleanup.mjs`. Product designs are preserved. Older static assets remain available for previous catalogue backups. Dashboard photo storage usage is unchanged.
+
+The storefront uses shop descriptions, a CSS separator on listing labels, and `paddockloom@gmail.com` for enquiries. An order bag keeps selected colours, sizes and quantities in the customer's browser. Two or more items receive free shipping; three or more also receive 10% off the merchandise subtotal, rounded to cents. Totals are calculated from the current catalogue. Buyers send the order on WhatsApp or email to confirm availability, delivery and payment; no payment checkout is added.
+
+Offer logic: `src/order.js`. Order interface: `src/order-ui.js`. Store content: `src/store-content.js`. Verify with `npm test`, `npm run build` and `node tests/shop-browser.mjs` (read-only against the live catalogue when `TEST_URL` is set).
+
 ## November 2026 inventory import
 
 The catalogue now contains 83 product listings and 253 colour/design options across 10 teams. Buyers filter by team, Caps/Shirts and Standard collection/Special livery. A driver number is part of the selectable option name and WhatsApp enquiry. Multiple views of one item are grouped in its gallery; a composite front/back photo represents one item, not a bundle. Supplied screenshot interfaces and prices have been permanently cropped away with the owner's approval; product photography is compressed to WebP without redrawing logos or details.
 
 Pricing: standard caps SGD 24.90, special-livery caps SGD 35.90, standard shirts SGD 39.90, special-livery shirts SGD 59.90. Special-livery classifications use the pictured graphic/alternate designs, without claiming unverified race editions. The owner can refine these classifications and prices in Inventory Studio.
 
-Shirts use S–4XL and the readable Mercedes reference chart. The customer size guide explicitly says it is a shared reference and asks buyers to confirm the selected style's measurements. The second supplied chart has cropped size labels, so it was not used to infer size names. No material, licensing or exact stock quantity claims have been added.
+Shirts use S–4XL and the readable Mercedes reference chart. The customer size guide displays the measurements and offers help choosing a size. The second supplied chart has cropped size labels, so it was not used to infer size names. No material, licensing or exact stock quantity claims have been added.
 
 WhatsApp is connected. Carousell and email buttons appear only when a channel is configured. The original concept inventory is backed up locally and replaced by actual supplied inventory.
 
